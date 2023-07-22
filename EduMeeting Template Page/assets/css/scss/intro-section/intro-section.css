@@ -1,9 +1,9 @@
 #intro {
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 #intro .background-image {
-  height: 700px;
+  height: 800px;
   width: 100%;
   background: url("../../../medya/image/105874696-1556279627825gettyimages-947895256.jpeg");
   background-repeat: no-repeat;
@@ -164,6 +164,29 @@
   font-family: Poppins, sans-serif;
   font-size: 16px;
   line-height: normal;
+}
+#intro .background-image .middle .services-cards {
+  height: 250px;
+  width: 100%;
+}
+#intro .background-image .middle .services-cards .container {
+  width: 86%;
+  height: 250px;
+}
+#intro .background-image .middle .services-cards .container .row {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#intro .background-image .middle .services-cards .container .row .col-4 {
+  width: 32%;
+  height: 250px;
+  padding: 25px;
+  background-color: rgb(161, 44, 47);
+  border-radius: 25px;
 }
 
 #intro .background-image .header .container .row .col-6-right ul li a:hover {
