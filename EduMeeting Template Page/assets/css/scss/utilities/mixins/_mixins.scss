@@ -6,3 +6,26 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
+@mixin HeaderLogoFontStyles(){
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+@mixin HeaderATagFontStyles(){
+    display: inline;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    height: 40px;
+    line-height: 40px;
+    border: transparent;
+    letter-spacing: 1px;
+    font-family: Poppins, sans-serif;
+}

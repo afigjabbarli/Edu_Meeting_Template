@@ -1,0 +1,134 @@
+@import '../utilities/mixins/mixins';
+#intro{
+    height: 700px;
+    width: 100%;
+    .background-image{
+          height: 700px;
+          width: 100%;
+          background: url('../../../medya/image/105874696-1556279627825gettyimages-947895256.jpeg');
+          background-repeat: no-repeat;
+          background-size: cover;
+         background-position: center;
+         .header{
+            height: 100px;
+            width: 100%;
+            background-color: rgba(128, 128, 128, 0.5);
+            .container{
+                width: 86%;
+                height: 100px;
+                margin: 0px auto;
+                
+                .row{
+                    height: 100px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    
+                    .col-6{
+                        
+                        height: 100px;
+                    }
+                    .col-6-left{
+                        display: flex;
+                        align-items: center;
+                        width: 57%;
+                        justify-content: flex-start;
+                        a{
+                            @include HeaderLogoFontStyles();
+                        }
+                    }
+                    .col-6-right{
+                        width: 43%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        ul{
+                            width: 100%;
+                            height: 100px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            list-style-type: none;
+                           
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    @include HeaderATagFontStyles();
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+         }
+         .middle{
+            height: 300px;
+            width: 100%;
+            margin-top: 100px;
+            .container{
+                width: 86%;
+                height: 300px;
+                margin: 0px auto;
+                .row{
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .col-6{
+                        width: 50%;
+                        height: 300px;
+                        flex-direction: column;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                        .button{
+                            height: 40px;
+                            width: 180px;
+                            border-radius: 25px;
+                            background-color: rgb(161, 44, 47);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a{
+                                text-decoration: none;
+                                @include HeaderATagFontStyles();
+                            }
+                        }
+                        .content{
+                            p{
+                                @include HeaderParagraphTagStyles();
+                                font-size: 15px;
+                                line-height: 15px;
+                                span{
+                                    @include HeaderParagraphTagStyles();
+                                    color: rgb(51, 204, 255);
+                                }
+                            }
+                        }
+                        h2{
+                            @include HeaderLogoFontStyles();
+                            font-size: 35px;
+                            line-height: normal
+                        }
+                        h5{
+                            @include HeaderLogoFontStyles();
+                            font-size: 16px;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+         }
+    }
+}
+#intro .background-image .header .container .row .col-6-right ul li a:hover{
+    color: #ffb700;
+    transition: 1s;
+  }
+  #intro .background-image .middle .container .row .col-6-left .content p span:hover{
+    color: #ffb700;
+    cursor: pointer;
+    transition: 1s;
+  }
