@@ -1,0 +1,47 @@
+#ourCourses {
+  height: 650px;
+  width: 100%;
+}
+#ourCourses .ourCourses-container {
+  width: 86%;
+  height: 700px;
+  margin: 120px auto;
+}
+#ourCourses .ourCourses-container .row-top {
+  height: 80px;
+  border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#ourCourses .ourCourses-container .row-bottom {
+  margin-top: 50px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 {
+  width: 23%;
+  height: 350px;
+  background-color: white;
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 .image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 .image-1 {
+  background-image: url(../../../medya/image/our-courses/course-01.jpg);
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 .image-2 {
+  background-image: url(../../../medya/image/our-courses/course-02.jpg);
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 .image-3 {
+  background-image: url(../../../medya/image/our-courses/course-03.jpg);
+}
+#ourCourses .ourCourses-container .row-bottom .col-3 .image-4 {
+  background-image: url(../../../medya/image/our-courses/course-04.jpg);
+}/*# sourceMappingURL=ourCourses.css.map */

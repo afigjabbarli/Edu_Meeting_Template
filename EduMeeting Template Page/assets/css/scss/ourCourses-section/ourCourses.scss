@@ -1,0 +1,49 @@
+@import '../utilities/mixins/mixins';
+#ourCourses{
+    height: 650px;
+    width: 100%;
+    .ourCourses-container{
+        width: 86%;
+        height: 700px;
+        margin: 120px auto;
+        .row-top{
+            height: 80px;
+            border-bottom: 1px solid rgb(172, 170, 170, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .row-bottom{
+            margin-top: 50px;
+            height: 350px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .col-3{
+                width: 23%;
+                height: 350px;
+                background-color: white;
+                .image{
+                    height: 200px;
+                    
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .image-1{
+                    background-image: url(../../../medya/image/our-courses/course-01.jpg);
+                }
+                .image-2{
+                    background-image: url(../../../medya/image/our-courses/course-02.jpg);
+                }
+                .image-3{
+                    background-image: url(../../../medya/image/our-courses/course-03.jpg);
+                }
+                .image-4{
+                    background-image: url(../../../medya/image/our-courses/course-04.jpg);
+                }
+            }
+        }
+    }
+}
