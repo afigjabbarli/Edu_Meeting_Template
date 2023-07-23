@@ -272,4 +272,19 @@
 #applyNow .container-applyNow .external-row .col-6-right .content .first-row .text p span:hover {
   cursor: pointer;
   color: #ffb700;
+}
+
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .title h1:hover {
+  cursor: pointer;
+  color: #ffb700;
+}
+
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .title h1:hover {
+  cursor: pointer;
+  color: #ffb700;
+}
+
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .title h1:hover {
+  cursor: pointer;
+  color: #ffb700;
 }/*# sourceMappingURL=ApplyNow.css.map */
