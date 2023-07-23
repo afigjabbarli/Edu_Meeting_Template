@@ -1,0 +1,129 @@
+@import '../utilities/mixins/mixins';
+#meetingCategories{
+    margin-top: 25px;
+    height: 1000px;
+    width: 100%;
+    .container{
+        height: 1000px;
+        width: 86%;
+        margin: 0px auto;
+        background-color: aqua;
+        .row{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .row-top{
+            height: 100px;
+            align-items: center;
+            border-bottom: 1px solid rgb(172, 170, 170, 0.4);
+            .col-12{
+                height: 100px;
+                width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                          @include HeaderLogoFontStyles();
+                          font-weight: bold;
+                    }
+            }
+        }
+        .row-bottom{
+            margin-top: 50px;
+            height: 775px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .col-4{
+                width: 32%;
+                height: 425px;
+                border-radius: 25px;
+                background-color: white;
+                padding: 20px 0px;
+
+                .col-4-container{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin: 0px auto;
+                    .title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        height: 60px;
+                        border-bottom: 1px solid rgb(172, 170, 170, 0.4);
+                        h1{
+                            @include HeaderLogoFontStyles();
+                            font-weight: bold;
+                            font-size: 20px;
+                            color: hsl(230, 29%, 8%);
+                        }
+                    }
+                    ul{
+                        list-style-type: none;
+                        height: 240px;
+                        flex-direction: column;
+                        display: flex;
+                        justify-content: space-evenly;
+                        border-bottom: 1px solid rgb(172, 170, 170, 0.4);
+                        li{
+                            a{
+                                text-decoration: none;
+                                @include HeaderATagFontStyles();
+                                font-size: 13px;
+                                transition: 1s;
+                                color: hsl(230, 29%, 8%);
+                            }
+                        }
+                    }
+                    .button-div{
+                       height: 100px;
+                       display: flex;
+                       align-items: center;
+                       .button{
+                          height: 50px;
+                          width: 100%;
+                          background-color: rgb(161, 44, 47);
+                          border-radius: 25px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          transition: 1s;
+                          h1{
+                            @include HeaderLogoFontStyles();
+                            font-size: 13px;
+                          }
+                       }
+                    }
+                }
+            }
+            .col-8{
+                width: 64%;
+                height: 775px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .col-6{
+                     height: 360px;
+                     width: 48%;
+                     background-color: white;
+                     border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+#meetingCategories .container .row-bottom .col-4 .col-4-container ul li a:hover{
+    color: rgb(161, 44, 47);
+    transition: 1s;
+    
+}
+#meetingCategories .container .row-bottom .col-4 .col-4-container .button-div .button:hover{
+    background-color: rgb(170, 62, 65);
+    transition: 1s;
+    cursor: pointer;
+}
