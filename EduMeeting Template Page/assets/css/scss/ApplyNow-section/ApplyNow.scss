@@ -89,7 +89,127 @@
             height: 100%;
             border-radius: 25px;
             background-color: white;
+            .content{
+                padding: 40px;
+                .first-row{
+                    height: 180px;
+                    border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+                    .title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 60px;
+                        h1{
+                            @include HeaderATagFontStyles();
+                            text-transform: none;
+                            color: #ffb700;
+                            font-size: 20px;
+                        }
+                    }
+                    .text{
+                        padding-left: 25px;
+                        margin-top: 10px;
+                        p{
+                            @include HeaderParagraphTagStyles();
+                            color: rgb(76, 76, 76);
+                            padding: 0;
+                            span{
+                                color: rgb(51, 204, 255);
+                            }
+                        }
+                    }
+                }
+                .second-row{
+                    height: 100px;
+                    border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+                    .title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 60px;
+                        h1{
+                            @include HeaderATagFontStyles();
+                            text-transform: none;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                    .text{
+                        padding-left: 25px;
+                        margin-top: 10px;
+                        p{
+                            @include HeaderParagraphTagStyles();
+                            color: rgb(76, 76, 76);
+                            padding: 0;
+                            span{
+                                color: rgb(51, 204, 255);
+                            }
+                        }
+                    }
+                }
+
+                .third-row{
+                    height: 100px;
+                    border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+                    .title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 60px;
+                        h1{
+                            @include HeaderATagFontStyles();
+                            text-transform: none;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                    .text{
+                        padding-left: 25px;
+                        margin-top: 10px;
+                        p{
+                            @include HeaderParagraphTagStyles();
+                            color: rgb(76, 76, 76);
+                            padding: 0;
+                            span{
+                                color: rgb(51, 204, 255);
+                            }
+                        }
+                    }
+                }
+
+                .fourth-row{
+                    height: 100px;
+                    
+                    .title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 60px;
+                        h1{
+                            @include HeaderATagFontStyles();
+                            text-transform: none;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                    .text{
+                        padding-left: 25px;
+                        margin-top: 10px;
+                        p{
+                            @include HeaderParagraphTagStyles();
+                            color: rgb(76, 76, 76);
+                            padding: 0;
+                            span{
+                                color: rgb(51, 204, 255);
+                            }
+                        }
+                    }
+                }
+            }
         }
        }
     }
 }
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .text p span:hover {
+    cursor: pointer;
+    color: #ffb700;}

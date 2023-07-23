@@ -93,4 +93,183 @@
   height: 100%;
   border-radius: 25px;
   background-color: white;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content {
+  padding: 40px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row {
+  height: 180px;
+  border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .title h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  font-family: Poppins, sans-serif;
+  text-transform: none;
+  color: #ffb700;
+  font-size: 20px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .text {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .text p {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(76, 76, 76);
+  padding: 0;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .text p span {
+  color: rgb(51, 204, 255);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row {
+  height: 100px;
+  border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .title h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  font-family: Poppins, sans-serif;
+  text-transform: none;
+  color: black;
+  font-size: 20px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .text {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .text p {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(76, 76, 76);
+  padding: 0;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .second-row .text p span {
+  color: rgb(51, 204, 255);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row {
+  height: 100px;
+  border-bottom: 1px solid rgba(172, 170, 170, 0.4);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .title h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  font-family: Poppins, sans-serif;
+  text-transform: none;
+  color: black;
+  font-size: 20px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .text {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .text p {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(76, 76, 76);
+  padding: 0;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .third-row .text p span {
+  color: rgb(51, 204, 255);
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row {
+  height: 100px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .title h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  font-family: Poppins, sans-serif;
+  text-transform: none;
+  color: black;
+  font-size: 20px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .text {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .text p {
+  color: #fff;
+  padding: 8px 0px;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgb(76, 76, 76);
+  padding: 0;
+}
+#applyNow .container-applyNow .external-row .col-6-right .content .fourth-row .text p span {
+  color: rgb(51, 204, 255);
+}
+
+#applyNow .container-applyNow .external-row .col-6-right .content .first-row .text p span:hover {
+  cursor: pointer;
+  color: #ffb700;
 }/*# sourceMappingURL=ApplyNow.css.map */
