@@ -7,7 +7,7 @@
         height: 1000px;
         width: 86%;
         margin: 0px auto;
-        background-color: aqua;
+        
         .row{
             width: 100%;
             display: flex;
@@ -58,6 +58,7 @@
                         border-bottom: 1px solid rgb(172, 170, 170, 0.4);
                         h1{
                             @include HeaderLogoFontStyles();
+                            text-transform: none;
                             font-weight: bold;
                             font-size: 20px;
                             color: hsl(230, 29%, 8%);
@@ -112,6 +113,105 @@
                      width: 48%;
                      background-color: white;
                      border-radius: 25px;
+                    .price{
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 12px;
+                        background-color: rgb(255, 255, 255, 0.8);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        top: 25px;
+                        left: 25px;
+                        span{
+                            @include HeaderATagFontStyles();
+                            color: black;
+                            font-size: 16px;
+                        }
+                    }
+                    .info{
+                        height: 135px;
+                        border-bottom-right-radius: 25px;
+                        border-bottom-left-radius: 25px;
+                        width: 100%;
+                       
+                        position: relative;
+                        top: 185px;
+                        .container-meet-cards{
+                             padding: 25px;
+                             height: 110px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: flex-start;
+                            align-items: center;
+                            .date{
+                                height: 60px;
+                               margin-right: 10%;
+                               display: flex;
+                               flex-direction: column;
+                               align-items: center;
+                               span{
+                                margin-bottom: 10px;
+                                color: rgb(161, 44, 47);
+                                font-size: 15px;
+                                line-height: 25px;
+                                font-weight: 600;
+                                font-family: 'Poppins', sans-serif;
+                               }
+                               h3{
+                                font-size: 18px;
+                                line-height: 25px;
+                                font-weight: bold;
+                                font-family: 'Poppins', sans-serif;
+                               }
+                            }
+                            .description{
+                                height: 70px;
+                                display: flex;
+                               flex-direction: column;
+                               justify-content: space-between;
+                               h3{
+                                font-size: 18px;
+                                line-height: 25px;
+                                font-weight: bold;
+                                font-family: 'Poppins', sans-serif;
+                               }
+                               .paragraph{
+                                margin-top: 10px;
+                                p{
+                                    @include HeaderParagraphTagStyles();
+                                    color: black;
+                                    padding: 0px 0px;
+                                }
+                               }
+                            }
+                        }
+                    }
+                }
+                .col-6-first{
+                    background-image: url(../../../medya/image/meeting-categories/meeting-01.jpg);
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: contain;
+                }
+                .col-6-second{
+                    background-image: url(../../../medya/image/meeting-categories/meeting-02.jpg);
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: contain;
+                }
+                .col-6-third{
+                    background-image: url(../../../medya/image/meeting-categories/meeting-03.jpg);
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: contain;
+                }
+                .col-6-fourth{
+                    background-image: url(../../../medya/image/meeting-categories/meeting-04.jpg);
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: contain;
                 }
             }
         }
